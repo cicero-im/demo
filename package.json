@@ -23,7 +23,7 @@
     "openai": "^4.54.0",
     "tdesign-vue-next": "^1.9.8",
     "tweakpane": "^4.0.3",
-    "vue": "^3.4.33",
+    "vue": "^3.5.25",
     "vue-i18n": "^9.13.1",
     "vue-router": "^4.4.2"
   },
