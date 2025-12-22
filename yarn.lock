@@ -1051,11 +1051,6 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.7.tgz#2f776bcb53adc9e13b2c0dfd493dfcbd7de43612"
   integrity sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==
 
-"@types/lodash@4.14.182":
-  version "4.14.182"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.182.tgz#05301a4d5e62963227eaafe0ce04dd77c54ea5c2"
-  integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
-
 "@types/ndarray@~1.0.14":
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/@types/ndarray/-/ndarray-1.0.14.tgz#96b28c09a3587a76de380243f87bb7a2d63b4b23"
@@ -2034,11 +2029,6 @@ dagre-d3-es@7.0.10:
   dependencies:
     d3 "^7.8.2"
     lodash-es "^4.17.21"
-
-dayjs@1.11.10:
-  version "1.11.10"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
-  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
 
 dayjs@^1.11.10:
   version "1.11.13"
@@ -3876,31 +3866,31 @@ synckit@^0.9.1:
     "@pkgr/core" "^0.1.0"
     tslib "^2.6.2"
 
-tdesign-icons-vue-next@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/tdesign-icons-vue-next/-/tdesign-icons-vue-next-0.2.4.tgz#2dad6e951803b44363beede91cfb4e186908a087"
-  integrity sha512-9Z40A0KGQSQCFhHFCik2gBZe5j6VATiSa/TJwRDd2p//STTWhBoESYOVkWgypfK3uhz50PEBfdFi1Zca/pr+cw==
+tdesign-icons-vue-next@~0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/tdesign-icons-vue-next/-/tdesign-icons-vue-next-0.4.1.tgz#1c32fe62fa7da42ad7f3b19a0781ff5d449b77a7"
+  integrity sha512-uDPuTLRORnGcTyVGNoentNaK4V+ZcBmhYwcY3KqDaQQ5rrPeLMxu0ZVmgOEf0JtF2QZiqAxY7vodNEiLUdoRKA==
   dependencies:
     "@babel/runtime" "^7.16.3"
 
-tdesign-vue-next@^1.9.8:
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/tdesign-vue-next/-/tdesign-vue-next-1.9.8.tgz#46e8e82ed77beca145fff7ad8e3ef0841a210c27"
-  integrity sha512-NJA7YIgPbXq917asrJYuXsEf/EjBmJOPATa4+QciLZbQkggAXJqT5+awisBPOe/zzv6o7SfH9/hOMJ237NEs1g==
+tdesign-vue-next@^1.17.6:
+  version "1.17.7"
+  resolved "https://registry.yarnpkg.com/tdesign-vue-next/-/tdesign-vue-next-1.17.7.tgz#1a81ffd980cfe1311ce7dbae6c3fa5266656a2e5"
+  integrity sha512-mV/9mm/nIS+tfx1oUG1IMMmTPFeZfLmP8bIVEa7S9CpVke2+Yei5i8RBXmDwF/d+OaDoKVgwUq08goSIZfRePQ==
   dependencies:
     "@babel/runtime" "^7.22.6"
     "@popperjs/core" "^2.11.8"
-    "@types/lodash" "4.14.182"
+    "@types/lodash-es" "^4.17.12"
     "@types/sortablejs" "^1.15.1"
     "@types/tinycolor2" "^1.4.3"
     "@types/validator" "^13.7.17"
-    dayjs "1.11.10"
-    lodash "^4.17.21"
+    dayjs "^1.11.10"
+    lodash-es "^4.17.21"
     mitt "^3.0.1"
     sortablejs "^1.15.0"
-    tdesign-icons-vue-next "^0.2.4"
+    tdesign-icons-vue-next "~0.4.1"
     tinycolor2 "^1.6.0"
-    validator "^13.9.0"
+    validator "^13.15.23"
 
 term-size@^2.1.0:
   version "2.2.1"
@@ -4096,10 +4086,10 @@ uuid@^9.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
-validator@^13.9.0:
-  version "13.12.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-13.12.0.tgz#7d78e76ba85504da3fee4fd1922b385914d4b35f"
-  integrity sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==
+validator@^13.15.23:
+  version "13.15.26"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.15.26.tgz#36c3deeab30e97806a658728a155c66fcaa5b944"
+  integrity sha512-spH26xU080ydGggxRyR1Yhcbgx+j3y5jbNXk/8L+iRvdIEQ4uTRH2Sgf2dokud6Q4oAtsbNvJ1Ft+9xmm6IZcA==
 
 vite@^5.3.4:
   version "5.3.5"
